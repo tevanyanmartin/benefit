@@ -1,0 +1,50 @@
+.discover-main {
+  width: 100%;
+}
+.discover-main .discover-title {
+  text-transform: uppercase;
+  text-align: center;
+  margin: 30px auto;
+  font-size: 40px;
+  color: white;
+}
+.discover-main .discover-content {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  margin: auto;
+}
+.discover-main .discover-content .discover-item .discoverEvenMore {
+  position: relative;
+  cursor: pointer;
+  font-size: 70px;
+  text-transform: uppercase;
+  text-align: center;
+  width: 350px;
+  border-radius: 50px;
+  height: 350px;
+}
+.discover-main .discover-content .discover-item .discoverEvenMore:hover {
+  transition: 0.5s;
+  opacity: 0.6;
+  border-radius: 70px;
+}
+.discover-main .discover-content .discover-item .discover-lips {
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZyje3D3u4iogMKsF36uoZNsAq8X8tycM63A&usqp=CAU")
+    0% 0% / contain no-repeat;
+}
+.discover-main .discover-content .discover-item .discover-face {
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0bDOoWVcrocLyUU7Lto93btZrfy2d2uKCow&usqp=CAU")
+    0% 0% / cover no-repeat;
+}
+.discover-main .discover-content .discover-item .discover-eyes {
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2vbpVBUKCaPgoNAKOzNXFevdo-G2nDDQw3g&usqp=CAU")
+    0% 0% / cover no-repeat;
+}
+.discover-main .discover-content .discover-item .discoverEvenMore span {
+  color: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
